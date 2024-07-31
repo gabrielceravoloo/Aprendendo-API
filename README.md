@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/af8ac2c7-f320-4634-a22f-b3ab44cf995d" alt="Banner do Repositório">
+  <img src="https://github.com/user-attachments/assets/687f794b-2f8f-477b-a8f9-dd31288c6328" alt="Banner do Repositório">
 </p>
 
 <h1 align="center"> Exemplos Práticos sobre oque é uma API </h1>
