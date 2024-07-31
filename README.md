@@ -1,71 +1,27 @@
-# API, REST e RESTFUL
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/af8ac2c7-f320-4634-a22f-b3ab44cf995d" alt="Banner do Repositório">
+</p>
 
-## API
+<h1 align="center"> Exemplos Práticos sobre oque é uma API </h1>
 
-Cliente (Client)
-Garçom (pedidos, levar seus pedidos, para a cozinha) (API)
-Cozinha (Server)
+### O Que é uma API?
 
-Acrônimo de Application Programming Interface (Interface de Programação de Aplicações) é basicamente um conjunto de rotinas e padrões estabelecidos por uma aplicação, para que outras aplicações possam utilizar as funcionalidades desta aplicação.
+APIs, ou Interfaces de Programação de Aplicações, são tecnologia que permitem que diferentes sistemas e aplicações se comuniquem e compartilhem dados de forma eficiente. Vou demonstrar alguns exemplos práticos para entender melhor como as APIs funcionam no nosso dia a dia
 
-- Responsável por estabelecer comunicação entre diferentes serviços.
-- Meio de campo entre as tecnologias.
-- Intermediador para troca de informações.
+### Exemplo 1: Calcular o Frete em uma Loja Online
 
-## REST
+Imagine que você está navegando em uma loja online, como a Magazine Luiza, e encontrou um produto interessante. Antes de finalizar a compra, você precisa saber quanto custará o frete até sua casa. Para isso, você informa seu CEP e clica no botão para calcular o frete
 
-um acrônimo para REpresentational State Transfer (Transferência de Estado Representativo).
+Aqui está o papel da API:
 
-Será feita a transferência de dados de uma maneira simbólica, figurativa, representativa, de maneira didática.
+1. **Ação do Usuário:** Você insere seu CEP e clica para calcular o frete
+2. **API em Ação:** O sistema da loja envia uma solicitação a uma API de frete, que pode ser de uma transportadora ou de um serviço especializado
+3. **Resposta da API:** A API retorna o valor do frete, calculado com base na localização e no peso dos produtos
 
-A transferência de dados, geralmente, usando o protocolo HTTP.
+#### Por Que Usar uma API?
 
-O REST delimita algumas obrigações nessas transferências de dados.
+Seria inviável para a loja manter um banco de dados com todos os endereços e CEPs do Brasil, além de criar uma lógica complexa para calcular o frete. As APIs oferecem um serviço terceirizado eficiente que realiza essas tarefas, permitindo que a loja se concentre em outras áreas do negócio
 
-Resources seria então: Uma entidade ou um objeto.
-
-### 6 NECESSIDADES (constraints) para ser RESTful
-
-- _Uniform Interface_: Manter uma uniformidade, uma constância, um padrão na construção da interface. Nossa API precisa ser coerente para quem vai consumi-lá. Precisa fazer sentido para o cliente e não ser confusa. Logo, coisas como: o uso correto dos verbos HTTP; endpoints coerentes (todos os endpoints no plural, por exemplo); usar somente uma linguagem de comunicação (json) e não várias ao mesmo tempo; sempre enviar respostas aos clientes; são exemplos de aplicação de uma interface uniforme.
-
-- _Client-server_: Separação do cliente e do armazenamento de dados (servidor), dessa forma, poderemos ter uma portabilidade do nosso sistema, usando o React para WEB e React Native para o smartphone, por exemplo.
-
-- _Stateless_: Cada requisição que o cliente faz para o servidor, deverá conter todas as informações necessárias para o servidor entender e responder (RESPONSE) a requisição (REQUEST). Exemplo: A sessão do usuário deverá ser enviada em todas as requisições, para saber se aquele usuário está autenticado e apto a usar os serviços, e o servidor não pode lembrar que o cliente foi autenticado na requisição anterior. Nos nossos cursos, temos por padrão usar tokens para as comunicações.
-
-- _Cacheable_: As respostas para uma requisição, deverão ser explicitas ao dizer se aquela resquição, pode ou não ser cacheada pelo cliente.
-
-- _Layered System_: O cliente acessa a um endpoint, sem precisar saber da complexidade, de quais passos estão sendo necessários para o servidor responder a requisição, ou quais outras camadas o servidor estará lidando, para que a requisição seja respondida.
-
-- _Code on demand (optional)_: Dá a possibilidade da nossa aplicação pegar códigos, como o javascript, por exemplo, e executar no cliente.
-
-## RESTFUL
-
-RESTful, é a aplicação dos padrões REST.
-
-## BOAS PRÁTICAS
-
-- Utilizar verbos HTTP para nossas requisições.
-- Utilizar plural ou singular na criação dos endpoints? _NÃO IMPORTA!_ use um padrão!!
-- Não deixar barra no final do endpoint
-- Nunca deixe o cliente sem resposta!
-
-### VERBOS HTTP
-
-- GET: Receber dados de um Resource.
-- POST: Enviar dados ou informações para serem processados por um Resource.
-- PUT: Atualizar dados de um Resource.
-- DELETE: Deletar um Resource
-
-### STATUS DAS RESPOSTAS
-
-- 1xx: Informação
-- 2xx: Sucesso
-  - 200: OK
-  - 201: CREATED
-  - 204: Não tem conteúdo PUT POST DELETE
-- 3xx: Redirection
-- 4xx: Client Error
-  - 400: Bad Request
-  - 404: Not Found!
-- 5xx: Server Error
-  500: Internal Server Error
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/86b1fee0-f251-4f63-9554-fe1956058183" alt="Banner do Repositório">
+</p>
