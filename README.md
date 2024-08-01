@@ -1,6 +1,6 @@
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/687f794b-2f8f-477b-a8f9-dd31288c6328" alt="Banner do Repositório">
-</p>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/687f794b-2f8f-477b-a8f9-dd31288c6328" alt="Capa do Repositório">
+</div>
 
 <h1 align="center"> Exemplos Práticos sobre oque é uma API </h1>
 
@@ -30,9 +30,9 @@ De onde você tiraria tudo isso? Você realmente vai baixar foto por foto e info
 
 ### Como funciona um API?
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/86b1fee0-f251-4f63-9554-fe1956058183" alt="Banner do Repositório">
-</p>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/86b1fee0-f251-4f63-9554-fe1956058183" alt="Explicação da API">
+</div>
 
 ### 1. Sistema A (Cliente):
 
@@ -50,9 +50,9 @@ O Sistema B é o servidor que recebe a solicitação da API, processa o pedido, 
 
 ### Quais são os tipos de API?
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/e4b755f1-0db7-42c7-b888-bfed5b4787e0" alt="Banner do Repositório">
-</p>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/e4b755f1-0db7-42c7-b888-bfed5b4787e0" alt="Tipos de API">
+</div>
 
 **1. SOAP (Simple Object Access Protocol):**
 Um protocolo baseado em XML que opera via HTTP e SMTP. Ele é robusto, fornece padrões rigorosos e inclui extensões de segurança
